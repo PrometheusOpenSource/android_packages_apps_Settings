@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2014 AnimeROM
+<!-- Copyright (C) 2014 Prometheus
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- About phone screen,  setting option name-->
-    <string name="mod_version">AnimeROM version</string>
+    <string name="mod_version">Prometheus version</string>
     <string name="mod_version_default">Unknown</string>
 
     <!-- Main list strings -->
@@ -169,7 +169,7 @@
 
     <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
     <string name="custom_runtime_warning_title">Warning</string>
-    <string name="custom_runtime_warning_message">ART is not supported by AnimeROM. This setting is included for experimentation only and has the potential to cause instability, crashes, data loss or prevent the proper boot of your device. Visit &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;We request you do not file bug reports if you have enabled ART as your runtime.&lt;br/&gt;&lt;br/&gt;Are you sure you want to reboot to change runtime from <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> to <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
+    <string name="custom_runtime_warning_message">ART is not supported by Prometheus. This setting is included for experimentation only and has the potential to cause instability, crashes, data loss or prevent the proper boot of your device. Visit &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;We request you do not file bug reports if you have enabled ART as your runtime.&lt;br/&gt;&lt;br/&gt;Are you sure you want to reboot to change runtime from <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> to <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
 
     <!-- Basic Numbers -->
     <string name="two">Two</string>
@@ -300,27 +300,27 @@
     <string name="halo_msgbox_animation_none">None</string>
     <string name="halo_msgbox_animation_flip">Flip</string>
     
-    <!-- About AnimeROM -->
+    <!-- About Prometheus -->
 
-    <string name="about_anime">About AnimeROM</string>
+    <string name="about_anime">About Prometheus</string>
     <string name="devs">Mexican Developers</string>
     <string name="primary_devs">Developers</string>
     <string name="artwork">Graphic Designer</string>
     <string name="anime_gerrit_title">Gerrit Code Review</string>
     <string name="anime_gerrit_summary">Help us make Anime a better ROM</string>
-    <string name="anime_source_title">AnimeROM Source</string>
-    <string name="anime_source_summary">https://github.com/AnimeROM</string>
+    <string name="anime_source_title">Prometheus Source</string>
+    <string name="anime_source_summary">https://github.com/PrometheusOpenSource</string>
     <string name="sauce">The Secret Sauce</string>
-    <string name="github_anime">https://github.com/AnimeROM</string>
+    <string name="github_anime">https://github.com/Prometheus</string>
     <string name="xperiafan13">xperiafan13</string>
-    <string name="ani">(C) 2014 The AnimeROM Project.</string>
+    <string name="ani">(C) 2014 The Prometheus Project.</string>
     <string name="powered">Powered by:</string>
     <string name="powered2">\nXPerience and GingerXperia.</string>
     <string name="klozz">Klozz Jesus TeamMEX in XDA-Developers</string>
     <string name="Mack">Mack Ankh</string>
     
     <string name="general_title">VM Settings</string>
-    <string name="performance_settings_title_subhead">AnimeROM</string>
+    <string name="performance_settings_title_subhead">Prometheus</string>
     <string name="perfomance_management_2_title">Other Settings</string>
 
     <string name="pref_gmaps_hack_title">GMaps Hack</string>
@@ -360,7 +360,7 @@
 
     <!-- PerforManceHack -->
     <string name="general_title">VM Settings</string>
-    <string name="performance_settings_title_subhead">AnimeROM</string>
+    <string name="performance_settings_title_subhead">Prometheus</string>
     <string name="perfomance_management_2_title">Other Settings</string>
 
     <string name="memory_management_settings_title_head">PerformanceHack</string>
@@ -371,7 +371,7 @@
     <string name="special_features_category">Special features category</string>
 
        <!-- Themes -->
-    <string name="theme_settings_title">The Real Darkness AnimeROM</string>
+    <string name="theme_settings_title">Prometheus Black</string>
     <string name="theme_auto_mode_title">Switch theme</string>
     <string name="theme_auto_mode_off">Manual</string>
     <string name="theme_auto_mode_lightsensor">On light condition change</string>
@@ -386,7 +386,7 @@
     <string name="lockscreen_enable_power_menu_title">Enable power menu</string>
     <string name="lockscreen_enable_power_menu_summary">Show power menu when screen is locked</string>
     
-    <!-- GameMODE AnimeROM -->
+    <!-- GameMODE Prometheus -->
     <string name="game_mode_title">Game Mode</string>
     <string name="game_mode_summary">Enhanced your game experience</string>
     
@@ -510,15 +510,15 @@
 
     <!-- Hostname setting -->
     <string name="device_hostname">Device hostname</string>
-    <string name="page_animerom"> Webpage of animerom</string>
+    <string name="page_animerom"> Webpage of Prometheus</string>
 
     <!-- Anonymous Statistics #CM -->
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">AnimeROM statistics</string>
-    <string name="anonymous_statistics_summary">Help make AnimeROM better by opting into anonymous statistics reporting</string>
+    <string name="anonymous_statistics_title">Prometheus statistics</string>
+    <string name="anonymous_statistics_summary">Help make Prometheus better by opting into anonymous statistics reporting</string>
     <string name="anonymous_statistics_warning_title">About</string>
-    <string name="anonymous_statistics_warning">Opting into AnimeROM Statistics will allow non-personal data to be submitted to the
-        developers of AnimeROM to track unique installations across devices. The information submitted includes an unique identifier,
+    <string name="anonymous_statistics_warning">Opting into Prometheus Statistics will allow non-personal data to be submitted to the
+        developers of Prometheus to track unique installations across devices. The information submitted includes an unique identifier,
         which does not compromise your privacy or personal data. The data is submitted during each boot.\n\nFor an example of the data that is submitted, tap on Preview Data.</string>
     <string name="enable_reporting_title">Enable reporting</string>
     <string name="preview_data_title">Preview data</string>
@@ -527,7 +527,7 @@
     <string name="anonymous_learn_more">Learn more</string>
 
     <!-- Anonymous Statistics - Notification -->
-    <string name="anonymous_notification_desc">Enable or Disable AnimeROM Statistics</string>
+    <string name="anonymous_notification_desc">Enable or Disable Prometheus Statistics</string>
 
     <!-- Anonymous Statistics - Preview -->
     <string name="preview_id_title">Unique ID</string>
