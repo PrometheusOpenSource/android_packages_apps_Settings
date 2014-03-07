@@ -31,14 +31,7 @@
                     android:targetPackage="@string/additional_system_update"
                     android:targetClass="@string/additional_system_update_menu" />
         </PreferenceScreen>-->
-    <!-- About AnimeROM -->
-   <PreferenceScreen
-        android:key="about"
-        android:icon="@drawable/ic_settings_about"
-        android:title="@string/about_anime" >
-   <intent android:action="com.android.settings.About" />
-        </PreferenceScreen>
-
+  
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status" 
@@ -170,9 +163,9 @@
                 android:title="@string/selinux_status"
                 android:summary="@string/selinux_status_enforcing"/>
 
-        <!-- Mod version -->
+        <!-- Mod version 
         <Preference android:key="page_animerom"
                 style="?android:preferenceInformationStyle"
-                android:title="@string/page_animerom" />
+                android:title="@string/page_animerom" />-->
 
 </PreferenceScreen>
